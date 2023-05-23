@@ -1,0 +1,225 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    
+    background: #f0f2f5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    gap: 2em;
+}
+.a{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    width: 22em;
+    height: 25em;
+}
+.a1 img{
+    width: 20em;
+}
+.a11{
+    text-indent: 1em;
+    font-size: 2em;
+    font-weight: bolder;
+}
+.a12{
+    text-indent: 1em;
+    color: gray;
+}
+.a2{
+    width: 10em;
+    height: 12em;
+    box-shadow: 0 0 2px gray;
+}
+.a2:hover{
+    box-shadow: 0 0 10px gray;
+    cursor: pointer;
+}
+.a21{
+    width:10em ;
+    height: 10em ;
+}
+.a21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f6f7;
+}
+.a21 .a211 a{
+    text-decoration: none;
+    color: white;
+
+}
+.a21 .a211{
+ text-align: center;
+ padding-top: 1em;
+    width: 3em;
+    height: 3em;
+    border-radius: 100px;
+    background:#1976f2;
+    color: aliceblue;
+}
+.a22{
+    background: white;
+    text-align: center;
+    color: #1976f2;
+    font-size: 1.5em;
+}
+.b{margin: 2px;
+    padding: 5px;
+    width: 25em;
+    height: 30em;
+    box-shadow: 0 0 5px gray;
+    border-radius: 5px;
+    background: white;
+}
+
+.b12{
+    color: grey;
+    font-size: 1.5em;
+}
+.c{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+.c .c1,.c2{
+    border-radius: 10px;
+    padding: 3px;
+    border: 1px solid gray;
+    background:#f5f6f7;
+ height: 2em;
+}
+.c2{
+    width: 26em;
+}
+.c select{
+    border-radius: 10px;
+    width: 5em;
+    height: 2em;
+}
+.c4{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.c5{
+    color: grey;
+    font-size: 13px;
+}
+.c5 a{
+    text-decoration: none;
+    color: #1976f2;
+}
+.d{
+    display: flex;
+    justify-content: center;
+}
+.d button{
+    color: white;
+    font-weight: bolder;
+    width: 8em;
+    font-size: 1.5em;
+    background: linear-gradient(rgb(7, 136, 7),rgb(0 164 0));
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.d button:hover{
+    background: linear-gradient(rgb(57, 133, 86),rgb(83, 106, 83));
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 400px) {
+
+        .b{margin: 2px;
+            padding: 5px;
+            width: 19em;;
+            background: white;
+            height: 35em;
+            box-shadow: 0 0 5px gray;
+            border-radius: 5px
+        }
+        
+        .b12{
+            color: grey;
+            font-size: 1.5em;
+        }
+        .c{
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .c .c1,.c2{
+            border-radius: 10px;
+            padding: 3px;
+            border: 1px solid gray;
+            background:#f5f6f7;
+         height: 2em;
+        }
+        .c2{
+            width: 23em;
+        }
+        .c select{
+            border-radius: 10px;
+            width: 3em;
+            height: 2em;
+        }
+        .c4{
+            font-size: 12px;
+            width: 5em;
+            padding: 5px;
+            border-radius: 10px;
+            border: 2px solid gray;
+        }
+        .c5{
+            color: grey;
+            font-size: 13px;
+        }
+        .c5 a{
+            text-decoration: none;
+            color: #1976f2;
+        }
+        .d{
+            display: flex;
+            justify-content: center;
+        }
+        .d button{
+            color: white;
+            font-weight: bolder;
+            width: 6em;
+            font-size: 1.5em;
+            background: linear-gradient(rgb(7, 136, 7),rgb(0 164 0));
+            padding: 5px;
+            border-radius: 10px;
+            border: none;
+        
+        }
+        
+        .d button:hover{
+            background: linear-gradient(rgb(57, 133, 86),rgb(83, 106, 83));
+            cursor: pointer;
+        }
+        .main{
+            background: #f0f2f5;
+            height: fit-content;
+          
+        }
+        
+        
+      
+    }
